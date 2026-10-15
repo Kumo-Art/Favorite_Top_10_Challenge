@@ -6,14 +6,22 @@ img {
     margin-right: auto;
 }
 
+#img {
+    padding-bottom: 20px;
+}
+
 body {
-    background-color: grey;
+    background-color: rgb(175, 171, 175);
 }
 
 h1, h2, p {
     color: white;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+}
+
+p{
+    font-size: 20px;
 }
 
 hr {
@@ -47,4 +55,19 @@ a {
     font-weight: 300;
     font-size: 25px;
     margin-right: 20px;
+}
+
+.gamegrid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameitem > img{
+    width: 400px;
+    height: 250px;
+    display: block;
 }
