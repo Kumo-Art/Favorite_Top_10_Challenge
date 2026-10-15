@@ -6,30 +6,33 @@ body {
 
 .animators {
     display:grid;
-   width: 100%;
+   width: 50%;
    height: 160px;
    border-radius: 8px;
-   object-fit: cover;
+   
+   
    
 }
 
 
 .animator {
     background-color: white;
-  border: 2px solid #E2E8F0;
+  border: px solid #E2E8F0;
   border-radius: 12px;
   padding: 16px;
   display: grid;
-  grid-template: 500px / 500px;
+  grid-template: 1000px 1fr / 500px 1fr 1fr 1fr;
 
 }
 
 
 .animator-image {
-   width: 50%;
+   width: 100%;
    height: 500px;
-   border-radius: 8px;
-   object-fit: contain;
+   border-radius: 100%;
+   object-fit: cover;
+   justify-items: flex-start;
+   
 }
 
 
@@ -37,8 +40,19 @@ body {
 
 .animator-video {
      width: 50%;
-   height: 500px;
+   height: 1000px;
    border-radius: 8px;
    object-fit:  contain;
+   display: flex;
+  padding-left: 1000px;
+
+  
    
+}
+
+
+
+.info {
+  display: flex;
+  justify-content: center;
 }
