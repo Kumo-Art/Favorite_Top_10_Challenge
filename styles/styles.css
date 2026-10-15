@@ -69,7 +69,13 @@ body {
   color:rgb(106, 189, 90)
 }
 
-
+a {
+    text-decoration: none;
+    color: greenyellow;
+    font-weight: 300;
+    font-size: 25px;
+    margin-right: 20px;
+}
 
 
 
