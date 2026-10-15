@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(175, 171, 175);
+    
+}
+
+
+.animators {
+    display:grid;
+   width: 50%;
+   height: 160px;
+   border-radius: 8px;
+   
+   
+   
+}
+
+
+.animator {
+    background-color: white;
+  border: px solid #E2E8F0;
+  border-radius: 12px;
+  padding: 16px;
+  display: grid;
+  grid-template: 1000px 1fr / 500px 1fr 1fr 1fr;
+
+}
+
+
+.animator-image {
+   width: 100%;
+   height: 500px;
+   border-radius: 100%;
+   object-fit: cover;
+   justify-items: flex-start;
+   
+}
+
+
+
+
+.animator-video {
+     width: 50%;
+   height: 1000px;
+   border-radius: 8px;
+   object-fit:  contain;
+   display: flex;
+  padding-left: 1000px;
+
+  
+   
+}
+
+
+
+.info {
+  display: flex;
+  justify-content: center;
+}
