@@ -41,6 +41,7 @@ h3 {
 p {
     margin-left: 9em;
     margin-right: 9em;
+    font-weight: 600;
 }
 
 nav{
@@ -70,4 +71,12 @@ a {
     width: 400px;
     height: 250px;
     display: block;
+}
+
+.gamelist {
+    background-color: rgb(109, 86, 86);
+    border: 5px solid #5cb9b5;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 16px;
 }
